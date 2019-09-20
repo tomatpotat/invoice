@@ -1,0 +1,12 @@
+.main-header__main-adress-tel-number
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+      justify-content: center;
+    align-items: center;
+
+      color: #e30a0a;
+font-size: 1em;
+    
+}

@@ -1,0 +1,20 @@
+/*.fa-phone {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.fa-phone::before {
+    font-size: 1.1em;
+    font-weight: inherit;
+}
+*/
+.fa-phone {
+    font-weight: 700;
+    font-size: 1.2rem;
+    
+} 
+.fa-phone-size {
+    
+     font-weight: 700;
+    font-size: 1.2rem;
+ }

@@ -1,0 +1,10 @@
+.main-header__main-nav{
+width: 60%;
+    height: 100%;
+
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+   
+  
+}

@@ -1,0 +1,23 @@
+.link-basic_animation-hover {
+    position: relative;
+    display: inline-block;
+    -webkit-transition: -webkit-transform 0.2s;
+    -moz-transition: -moz-transform 0.2s;
+    transition: transform 0.2s;
+    padding: 10px 0;
+  
+}
+
+.link-basic_animation-hover::before {
+    position: absolute;
+    top: 100%;
+  font-family: 'FontAwesome';
+    content: attr(data-hover);
+   
+    color: #d50000;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    padding: 10px 0;
+}
+

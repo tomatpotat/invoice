@@ -1,0 +1,9 @@
+.main-container__header-common 
+{
+    
+    height: 10vh;
+    width: 100% ;
+    position: fixed ;
+    max-width: 1100px;
+      z-index: 1;
+}

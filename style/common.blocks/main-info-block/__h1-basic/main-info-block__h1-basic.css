@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+.main-info-block__h1-basic {
+  color: #1e1e1e;
+    font-family: Ubuntu;
+    text-transform: uppercase;
+font-size: 1.4em; 
+width: 100%;
+   text-align: center;
+letter-spacing: 0.03em;
+} 
