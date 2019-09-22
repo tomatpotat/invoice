@@ -1,14 +1,12 @@
 .link-basic_animation-hover-for-tag-a{
   overflow: hidden;
-    
 }
 .link-basic_animation-hover-for-tag-a:hover span {
     -webkit-transform: translateY(-100%);
-    -ms-transform:translateY(-100%);
     -moz-transform: translateY(-100%);
+    -ms-transform:translateY(-100%);
     -o-transform:translateY(-100%);
     transform: translateY(-100%);
-
 }
 /*
 .link-basic_animation-hover-for-tag-a:focus span{

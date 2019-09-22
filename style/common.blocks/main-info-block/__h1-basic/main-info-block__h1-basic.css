@@ -1,14 +1,17 @@
+/*
 @font-face {
     font-family: Ubuntu;
     src: url(fonts/Ubuntu/Ubuntu-Regular.ttf);
-}
+}*/
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
 .main-info-block__h1-basic {
-  color: #1e1e1e;
-    font-family: Ubuntu;
+    width: 100%;
+    color: #1e1e1e;
+    text-align: center;
     text-transform: uppercase;
-font-size: 1.4em; 
-width: 100%;
-   text-align: center;
-letter-spacing: 0.03em;
-} 
+    letter-spacing: 0.03em;
+    font-size: 1.4em;
+    font-family: 'Ubuntu', sans-serif;
+}

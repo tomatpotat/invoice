@@ -1,13 +1,6 @@
-
-@font-face {
-    font-family: Old Standard TT;
-    src: url(fonts/Old_Standard_TT/OldStandard-Regular.ttf);
-
-}
-
-.main-info-block__story-arcticle{
-
-    width: 90%;
-      font-family: Old Standard TT;
-    font-size: 1.06em; 
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap');
+.main-info-block__story-arcticle {
+     width: 90%;
+    font-size: 1.06em;
+    font-family: 'Old Standard TT', serif;
 }

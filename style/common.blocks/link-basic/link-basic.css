@@ -1,14 +1,9 @@
 
-@font-face {
-    font-family: Noto Sans;
-    src: url(fonts/Noto_Sans/NotoSans-Regular.ttf);
-}
-
-
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 
 .link-basic{
 color: #1e1e1e;
-    font-family: "Noto Sans";
+    font-family: 'Noto Sans', sans-serif;
   text-decoration: none;
  font-style: normal;
 letter-spacing: 0.07em;
