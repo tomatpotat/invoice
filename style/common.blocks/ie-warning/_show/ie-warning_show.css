@@ -1,0 +1,15 @@
+.ie-warning_show{
+    display:block;
+   
+   padding-bottom: 0;
+    margin-bottom: 0;
+z-index: 1000000;
+    text-align: center;
+    background-color:chartreuse;
+font-weight: 100;
+width: 100%;
+}
+.ie-warning_show > span {
+    color: red;
+    
+}
