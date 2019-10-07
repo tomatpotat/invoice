@@ -13,15 +13,15 @@
     <!--[if IE]>
         <script type="text/javascript">
              var console = { log: function() {} };
-        var ie = document.getElementsByClassName('ie-warning');
-           ie[0].classList.add("ie-warning_show");
     
     </script>
      
     <![endif]-->
+    <link rel="stylesheet" href="style/common.blocks/root/root.common.css">
+    
 <link rel="stylesheet" href="style/common.blocks/ie-warning/ie-warning.css">
 <link rel="stylesheet" href="style/common.blocks/ie-warning/_show/ie-warning_show.css">
-   
+
     <link href="style/common.blocks/main-header/fonts/FontAwesome/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style/alien-style/FontAwesome/FontAwesome.css">
 
@@ -92,6 +92,14 @@
     <link rel="stylesheet" href="style/common.blocks/main-footer/__header/main-footer__header-copyight-info.css">
     <link rel="stylesheet" href="style/common.blocks/main-footer/__panel/footer__panel-left.css">
     <link rel="stylesheet" href="style/common.blocks/main-footer/__panel/footer__panel-right.css">
+<!-- Style of laptop 1100px-->
+<link rel="stylesheet" href="style/laptop-1100.blocks/main-body/__main-container/main-body__main-container-common_1100px.css">
+<link rel="stylesheet" href="style/laptop-1100.blocks/root/root_1100px.css">
+<!-- Style of Tablet 768px-->
+
+<link rel="stylesheet" href="style/tablet-768.blocks/main-body/__main-container/main-body__main-container-common_768px.css">
+<link rel="stylesheet" href="style/tablet-768.blocks/root/root_768px.css">
+
 </head>
 
 
@@ -107,8 +115,8 @@
                                 <a href="#firstPage" data-menuanchor="firstPage" class="link-basic link-basic_hover  main-header__button active button  ">О нас</a>
                 <a href="#secondPage" data-menuanchor="secondPage" class="link-basic link-basic_hover button main-header__button">Услуги</a>
                 <a href="#3rdPage" data-menuanchor="3rdPage" class="link-basic link-basic_hover button main-header__button"> Объекты</a>
-                <a href="#4thpage" data-menuanchor="4thpage" class="link-basic link-basic_hover button main-header__button"> Адреса</a>
-                <a href="#lastPage" data-menuanchor="lastPage" class="link-basic link-basic_hover button main-header__button">Команда</a>
+                <a href="#4thpage" data-menuanchor="4thpage" class="link-basic link-basic_hover button main-header__button"> Офис</a>
+                <a href="#lastPage" data-menuanchor="lastPage" class="link-basic link-basic_hover button main-header__button">Сотрудники</a>
             </nav>
 
             <address class="main-header__main-adress">
@@ -267,7 +275,7 @@
                         <div class="visual-info-company__presentation-photo-block 
                         ">
 
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3674.4649946381733!2d60.626613698950806!3d56.79640910202671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0LTQuNGA0LjQttCw0LHQu9GM!5e0!3m2!1sru!2sru!4v1568972061551!5m2!1sru!2sru" width="600" height="400" frameborder="0" style="border:0; border-radius: 20px;" allowfullscreen=""></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3674.4649946381733!2d60.626613698950806!3d56.79640910202671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0LTQuNGA0LjQttCw0LHQu9GM!5e0!3m2!1sru!2sru!4v1568972061551!5m2!1sru!2sru" width="600" height="400" frameborder="0" style="border:0; border-radius: 0.5em; max-width: 95%;" allowfullscreen=""></iframe>
 
                         </div>
 
@@ -433,19 +441,6 @@
 
         });
     </script>
-<!--
-   <script>
-    function msieversion() {
-    var ua = window.navigator.userAgent;
-    var msie = ua.indexOf("MSIE ");
-    if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
-    {
-   alert("Внимание ваш браузер устарел!");
- //  document.getElementById("ie-warning").className += "ie-warning_show";   
-    }
-msieversion();
-        
-    </script> -->
     <script>
     /**
  * detect IE
@@ -470,9 +465,9 @@ function detectIE() {
     }
 }
  //detectIE();    
-    setTimeout(detectIE(),10000) ;
+    setTimeout(detectIE(),5000) ;
   //setTimeout(ie[0].classList.remove("ie-warning_show"),
-    //     100000); 
+ 
       
     </script>
             

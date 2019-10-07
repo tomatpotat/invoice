@@ -3,7 +3,8 @@
     
     height: 10vh;
     width: 100% ;
-    position: fixed ;
+   
+    /*position: fixed;*/
     max-width: 1100px;
-      z-index: 1;
+  z-index: 1;
 }

@@ -4,9 +4,9 @@
  width: 100%;
 
 
-
- background-size: 45%;
+display: flex;
+ background-size: 29rem;
     background-repeat: no-repeat;
-    background-position: 15em center;
+    background-position: 12rem center;
     background-attachment: fixed;
 }

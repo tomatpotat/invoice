@@ -1,15 +1,15 @@
 nav> .active {
     
-font-size: 0.8em;
+font-size: 0.6rem;
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
-    border-radius: 8px;
+    border-radius: 0.4em;
     
     background-color: #d50000;
     
     color: #ffffff;
-   padding: 15px;
+   padding: 1.2em;
 }
 nav> .active:hover {
     color: #ffffff;
