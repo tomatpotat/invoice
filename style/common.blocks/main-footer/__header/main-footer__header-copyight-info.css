@@ -1,5 +1,6 @@
 .main-footer__header-copyight-info{
     display: flex;
+    background-color: #eaeaea;
     justify-content: center;
     align-items: center;
     height: 7vh;
