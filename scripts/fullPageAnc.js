@@ -4,4 +4,5 @@ var myFullpage = new fullpage('#fullpage', {
     menu: '#menu',
     lazyLoad: true,
     css3: false
-});
+  //  responsiveWidth: 900
+    });
