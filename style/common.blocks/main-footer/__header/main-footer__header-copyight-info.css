@@ -1,9 +1,11 @@
 .main-footer__header-copyight-info{
-    display: flex;
+display: flex;
+
+justify-content: center;
+align-items: center;
     background-color: #eaeaea;
-    justify-content: center;
-    align-items: center;
     height: 7vh;
+    min-height: 30px;
     width: 100%;
-   font-size: 0.7rem;
+    font-size: 0.7rem;
 }

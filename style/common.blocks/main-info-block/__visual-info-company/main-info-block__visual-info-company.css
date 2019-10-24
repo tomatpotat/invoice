@@ -1,10 +1,15 @@
 .main-info-block__visual-info-company
 {
     
-    width: 60% ;
-    height: 100%;
+width: 60%;
+    
+height: 100%;
+    
+display: flex;
+    
+justify-content: center;
+    
+align-items: center;
+    
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }

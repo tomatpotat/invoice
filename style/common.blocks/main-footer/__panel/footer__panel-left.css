@@ -1,10 +1,10 @@
 .footer__panel-left{
-       display: block;
-    float: left;
-    height: 100%;
-    width: 50%;
-    box-sizing: border-box;
-  padding-left: 2.95em;
-font-size: 0.7rem;
-line-height: 1.8;
+    
+       height: 100%;
+       width: 50%;
+       box-sizing: border-box;
+       padding-left: 2.95em;
+       font-size: 0.7rem;
+       line-height: 1.8;
+       z-index: auto;
 }
