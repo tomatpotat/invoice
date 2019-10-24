@@ -14,3 +14,10 @@ font-size: 0.6rem;
 nav> .active:hover {
     color: #ffffff;
 }
+.slimScrollBar {
+    display: none !important;
+}
+.iScrollIndicator {
+    display: none !important;
+
+}

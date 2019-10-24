@@ -2,3 +2,7 @@
     line-height: 1.3;
  font-size: calc(0.4em + 1vw);
 }
+:focus {
+    outline: none;
+}
+
