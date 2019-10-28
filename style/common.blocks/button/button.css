@@ -7,3 +7,11 @@
 
 
 }
+
+@media (max-width:768px) {
+
+.button{font-size: 0.5rem;
+}
+    
+
+}

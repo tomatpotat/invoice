@@ -21,8 +21,3 @@ nav> .active:hover {
     display: none !important;
 
 }
-#section4 {
-    z-index: 2;
-
-}
-#section5{z-index: 3;}

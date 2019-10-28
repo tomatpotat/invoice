@@ -7,7 +7,11 @@ $(document).on('ready', function () {
         fade: true,
         asNavFor: '.slider-nav',
         infinite: true,
-        adaptiveHeight: true
+        adaptiveHeight: true,
+        swipe: false,
+        touchMove:false,
+        draggable: false
+   
     });
     $('.slider-nav').slick({
         slidesToShow: 1,
@@ -19,7 +23,11 @@ $(document).on('ready', function () {
         fade: true,
         infinite: true,
         cssEase: 'linear',
-        speed: 500
+        speed: 500,
+        swipe: false,
+        touchMove:false,
+        draggable: false
+          
     });
     $('.slider-for1').slick({
         slidesToShow: 1,
@@ -28,7 +36,10 @@ $(document).on('ready', function () {
         fade: true,
         asNavFor: '.slider-nav1',
         infinite: true,
-        adaptiveHeight: true
+        adaptiveHeight: true,
+        swipe: false,
+        touchMove:false,
+        draggable: false
     });
     $('.slider-nav1').slick({
         slidesToShow: 1,
@@ -40,7 +51,10 @@ $(document).on('ready', function () {
         fade: true,
         infinite: true,
         cssEase: 'linear',
-        speed: 500
+        speed: 500,
+        swipe: false,
+        touchMove:false,
+        draggable: false
     });
     $('.slider-for2').slick({
         slidesToShow: 1,
@@ -49,7 +63,10 @@ $(document).on('ready', function () {
         fade: true,
         asNavFor: '.slider-nav2',
         infinite: true,
-        adaptiveHeight: true
+        adaptiveHeight: true,
+        swipe: false,
+        touchMove:false,
+        draggable: false
     });
     $('.slider-nav2').slick({
         slidesToShow: 1,
@@ -61,7 +78,10 @@ $(document).on('ready', function () {
         fade: true,
         infinite: true,
         cssEase: 'linear',
-        speed: 500
+        speed: 500,
+        swipe: false,
+        touchMove:false,
+        draggable: false
     });
 
 });

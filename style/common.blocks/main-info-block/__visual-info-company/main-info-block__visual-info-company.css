@@ -1,15 +1,7 @@
-.main-info-block__visual-info-company
-{
-    
-width: 60%;
-    
-height: 100%;
-    
-display: flex;
-    
-justify-content: center;
-    
-align-items: center;
-    
-
+.main-info-block__visual-info-company {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
 }

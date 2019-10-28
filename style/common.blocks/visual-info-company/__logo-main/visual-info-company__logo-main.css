@@ -5,8 +5,17 @@
 
 
 display: flex;
- background-size: 29rem;
+ /* background-size: 29rem; */
+ background-size: 45%;
     background-repeat: no-repeat;
+    /* background-position: 12rem center; */
     background-position: 12rem center;
     background-attachment: fixed;
+}
+
+@media (max-width:768px) {
+    .visual-info-company__logo-main {
+        background-size: 63%;
+        background-position: 2rem center;
+
 }
