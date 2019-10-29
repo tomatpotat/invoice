@@ -1,0 +1,97 @@
+* [33mcommit 7303de447ab295bd69b852da4bf69cdeef5c6eb5[m[33m ([m[1;36mHEAD -> [m[1;32mtesting[m[33m)[m
+[31m|[m Author: Tomat Potat <tomatopotato@tuta.io>
+[31m|[m Date:   Mon Oct 28 14:35:18 2019 +0500
+[31m|[m 
+[31m|[m     Delete block for small screen. Merge code for small screen into common block for convenience
+[31m|[m 
+* [33mcommit 40c7c147942e0ca8d98bfa6276b308b1a1a2638a[m
+[31m|[m Author: Tomat Potat <tomatopotato@tuta.io>
+[31m|[m Date:   Thu Oct 24 16:50:53 2019 +0500
+[31m|[m 
+[31m|[m     Add hover footer link
+[31m|[m 
+* [33mcommit a7ef50ba2a89e9e3406e05fc5693cc5286039946[m
+[31m|[m Author: Tomat Potat <tomatopotato@tuta.io>
+[31m|[m Date:   Thu Oct 24 16:17:33 2019 +0500
+[31m|[m 
+[31m|[m     Fix footer + merging with the last section, solving the problem of collapse
+[31m|[m 
+* [33mcommit e78fd7dd6b959043393464bb1e67408f00a213ad[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+[31m|[m Author: Tomat Potat <tomatopotato@tuta.io>
+[31m|[m Date:   Thu Oct 24 13:10:52 2019 +0500
+[31m|[m 
+[31m|[m     Fix broken height
+[31m|[m 
+* [33mcommit c9a0c052990b25133952433d78f6fa9ef893d38e[m
+[31m|[m Author: Tomat Potat <tomatopotato@tuta.io>
+[31m|[m Date:   Tue Oct 22 14:20:22 2019 +0500
+[31m|[m 
+[31m|[m     Fix height to be continues
+[31m|[m 
+* [33mcommit 520ecea0c61b5ba1f33b9f5e74b90e85558f10ed[m
+[31m|[m Author: Tomat Potat <tomatopotato@tuta.io>
+[31m|[m Date:   Fri Oct 18 17:20:56 2019 +0500
+[31m|[m 
+[31m|[m     Fix slider class, scripts are placed in separate files
+[31m|[m 
+* [33mcommit 1dc816b0686437caa661bdac12199d3daa3ee3bc[m
+[31m|[m Author: Tomat Potat <tomatopotato@tuta.io>
+[31m|[m Date:   Mon Oct 14 15:51:14 2019 +0500
+[31m|[m 
+[31m|[m     Fix button slider
+[31m|[m 
+* [33mcommit 8f92f252990f377eae3d4be76cfe95b10b6c1d0d[m
+[31m|[m Author: Tomat Potat <tomatopotato@tuta.io>
+[31m|[m Date:   Mon Oct 14 15:11:42 2019 +0500
+[31m|[m 
+[31m|[m     Changes footer
+[31m|[m   
+*   [33mcommit 16a498e99bc2177023fac4416c78a18106edb988[m
+[32m|[m[33m\[m  Merge: e513fd7 0c2fdb3
+[32m|[m [33m|[m Author: Tomat Potat <tomatopotato@tuta.io>
+[32m|[m [33m|[m Date:   Mon Oct 7 15:28:31 2019 +0500
+[32m|[m [33m|[m 
+[32m|[m [33m|[m     Merge branch 'master' of https://github.com/tomatpotat/invoice
+[32m|[m [33m|[m 
+[32m|[m * [33mcommit 0c2fdb34781d79de01f423b7ef89d9dbf6569786[m
+[32m|[m [33m|[m Author: Tomat Potat <tomatopotato@tuta.io>
+[32m|[m [33m|[m Date:   Fri Oct 4 19:03:55 2019 +0500
+[32m|[m [33m|[m 
+[32m|[m [33m|[m     Fixed bug header. Starting adaptive layout
+[32m|[m [33m|[m 
+* [33m|[m [33mcommit e513fd7db70a07cd913c7fccf02615ccea5d7095[m
+[33m|[m[33m/[m  Author: Tomat Potat <tomatopotato@tuta.io>
+[33m|[m   Date:   Mon Oct 7 15:24:02 2019 +0500
+[33m|[m   
+[33m|[m       strange commit
+[33m|[m 
+* [33mcommit d7b78d79aa34853a24d27b8e166b6c47258fa76b[m
+[33m|[m Author: Tomat Potat <tomatopotato@tuta.io>
+[33m|[m Date:   Thu Oct 3 12:04:14 2019 +0500
+[33m|[m 
+[33m|[m     Warning ie 11
+[33m|[m 
+* [33mcommit 0285ca984c3e202df4f66ba48b5969e8bb28428a[m
+[33m|[m Author: Tomat Potat <tomatopotato@tuta.io>
+[33m|[m Date:   Mon Sep 30 19:13:48 2019 +0500
+[33m|[m 
+[33m|[m     Add footer
+[33m|[m 
+* [33mcommit 4335cd072d06ed106461806777eae89fcb174254[m
+[33m|[m Author: Tomat Potat <tomatopotato@tuta.io>
+[33m|[m Date:   Sun Sep 22 20:06:18 2019 +0500
+[33m|[m 
+[33m|[m     Cosmetic changes. Web fonts connected
+[33m|[m 
+* [33mcommit 60b03a93872a4a49ba8cef486ec94e897f21f639[m
+[33m|[m Author: Tomat Potat <tomatopotato@tuta.io>
+[33m|[m Date:   Fri Sep 20 13:29:17 2019 +0500
+[33m|[m 
+[33m|[m     First commit without fonts, img and other
+[33m|[m     license file etc
+[33m|[m 
+* [33mcommit 3e2d21914d817281ed2d50c31e560043ed3e242d[m
+  Author: tomatpotat <54930686+tomatpotat@users.noreply.github.com>
+  Date:   Fri Sep 20 13:24:29 2019 +0500
+  
+      Initial commit
