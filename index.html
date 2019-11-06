@@ -9,10 +9,6 @@
     <meta content="yes" name="apple-mobile-web-app-capable" />
     <title>РК Invoce.ru</title>
 
-
-    <!--[if IE]>
-     
-    <![endif]-->
     <link rel="stylesheet" href="style/alien-style/normalize.css">
     <link rel="stylesheet" href="style/common.blocks/root/root.common.css">
 
@@ -109,6 +105,12 @@
 <link rel="stylesheet" href="style/common.blocks/main-footer/__panel/_padding/main-footer__panel_padding.css">
 
 <link rel="stylesheet" href="style/common.blocks/main-info-block/__visual-info-company/_theme/main-info-block__visual-info-company_theme-white.css">
+
+<!-- Mobile menu slick -->
+<link rel="stylesheet" href="./framework/Slick-Nav/styles/slicknav.css">
+<!-- <link rel="stylesheet" href="/framework/Slick-Nav/styles/style.css"> -->
+<link rel="stylesheet" href="./framework/Slick-Nav/styles/style.css"> 
+<!--  -->
 
 </head>
 
@@ -520,6 +522,17 @@
     </script>
     <script src="scripts/detectIE.js">
        </script>
+   <script src="framework/Slick-Nav/scripts/modernizr.min.js"></script>
+   <script src="framework/Slick-Nav/scripts/jquery.slicknav.js"></script>
+
+   <script type="text/javascript">
+    $(document).ready(function(){
+        $('#menu').slicknav(
+            {prependTo:'nav'} );
+        $('#menu').slicknav('toggle');
+    });
+    </script>
+    
 
 </body>
 
