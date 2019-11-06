@@ -107,9 +107,9 @@
 <link rel="stylesheet" href="style/common.blocks/main-info-block/__visual-info-company/_theme/main-info-block__visual-info-company_theme-white.css">
 
 <!-- Mobile menu slick -->
-<link rel="stylesheet" href="./framework/Slick-Nav/styles/slicknav.css">
-<!-- <link rel="stylesheet" href="/framework/Slick-Nav/styles/style.css"> -->
-<link rel="stylesheet" href="./framework/Slick-Nav/styles/style.css"> 
+<link rel="stylesheet" href="framework/Slick-Nav/styles/slicknav.css">
+
+<link rel="stylesheet" href="framework/Slick-Nav/styles/style.css"> 
 <!--  -->
 
 </head>
@@ -525,12 +525,22 @@
    <script src="framework/Slick-Nav/scripts/modernizr.min.js"></script>
    <script src="framework/Slick-Nav/scripts/jquery.slicknav.js"></script>
 
-   <script type="text/javascript">
+
+<script type="text/javascript">
+
     $(document).ready(function(){
+  
         $('#menu').slicknav(
-            {prependTo:'nav'} );
-        $('#menu').slicknav('toggle');
+            {prependTo:'header', label:"",brand:"РК Invoice </br> <span> +7(777) 77 777 77 </span> "} );
+        
     });
+
+    $(document).ready(function() {
+    //close menu on lost focus
+    $('.slicknav_menu').focusout(function(event){
+        $('#menu').slicknav('close'); //Here 'menu' is the id of ul.
+    });  
+  });
     </script>
     
 
