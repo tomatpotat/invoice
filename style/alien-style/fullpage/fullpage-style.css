@@ -21,3 +21,14 @@ nav> .active:hover {
     display: none !important;
 
 }
+@media  (max-width: 768px) {
+    nav> .active {
+background-color: inherit;
+font-size: 0.7rem;
+font-weight: inherit;
+
+    }
+
+
+
+}

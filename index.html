@@ -123,18 +123,18 @@
 
         <header class="main-header main-container__header-common ">
 
-            <nav class="main-header__main-nav" id="menu">
+            <nav class="main-header__main-nav " id="menu">
 
                 <a href="#firstPage" data-menuanchor="firstPage"
-                    class="link-basic link-basic_hover  main-header__button active button  ">О нас</a>
+                    class="link-basic link-basic_hover  main-header__button active button slick-nav-link  ">О нас</a>
                 <a href="#secondPage" data-menuanchor="secondPage"
-                    class="link-basic link-basic_hover button main-header__button">Услуги</a>
+                    class="link-basic link-basic_hover button main-header__button slick-nav-link">Услуги</a>
                 <a href="#3rdPage" data-menuanchor="3rdPage"
-                    class="link-basic link-basic_hover button main-header__button"> Объекты</a>
+                    class="link-basic link-basic_hover button main-header__button slick-nav-link"> Объекты</a>
                 <a href="#4thpage" data-menuanchor="4thpage"
-                    class="link-basic link-basic_hover button main-header__button"> Офис</a>
+                    class="link-basic link-basic_hover button main-header__button slick-nav-link"> Офис</a>
                 <a href="#lastPage" data-menuanchor="lastPage"
-                    class="link-basic link-basic_hover button main-header__button">Сотрудники</a>
+                    class="link-basic link-basic_hover button main-header__button slick-nav-link">Сотрудники</a>
             </nav>
 
             <address class="main-header__main-adress">
@@ -531,16 +531,40 @@
     $(document).ready(function(){
   
         $('#menu').slicknav(
-            {prependTo:'header', label:"",brand:"РК Invoice </br> <span> +7(777) 77 777 77 </span> "} );
-        
+            {prependTo:'header', label:"",  brand:"РК &laquo;Invoice&raquo; &nbsp;&nbsp;&nbsp;    <span> +7(777) 77 777 77 </span> "} );
+      
+            //    $('.change-id').attr('id', 'element-2');      
     });
+   
+//    $(document).ready(function() {
+//     //close menu on lost focus
+//    $('.slicknav-menu').focusout(function(event){
+//         $('#menu').slicknav('close'); //Here 'menu' is the id of ul.
+//     });  
+//   });
+ 
+////////////////////////////
 
-    $(document).ready(function() {
-    //close menu on lost focus
-    $('.slicknav_menu').focusout(function(event){
-        $('#menu').slicknav('close'); //Here 'menu' is the id of ul.
-    });  
-  });
+$("div, html").on("click", function (event) { 
+    if( !$(event.target).hasClass("slick-nav-link") && 
+    !$(event.target).hasClass("slicknav_nav > a") && 
+    !$(event.target).hasClass("slicknav_menutxt") && 
+    !$(event.target).hasClass("slicknav_icon") && 
+    !$(event.target).hasClass("slicknav_icon-bar") &&
+    !$(event.target).hasClass("slicknav_btn") &&
+    !$(event.target).hasClass("slicknav_brand") && 
+    !$(event.target).hasClass("nav > .active") 
+) {   
+        $("#menu").slicknav('close'); 
+    }
+});
+  
+//    $(document).ready(function() {
+//     //close menu on lost focus
+//    $('.slicknav_menu').focusout(function(event){
+//         $('#menu').slicknav('close'); //Here 'menu' is the id of ul.
+//     });  
+//   });
     </script>
     
 
