@@ -1,0 +1,12 @@
+.slicknav_nav > .link-mobile-menu-social-icon{
+font-size: 0.8rem;
+color: #c9c9c9;
+display: inline-block;
+}
+
+
+@media  (min-width: 768px) {
+    .link-mobile-menu-social-icon {
+        display: none;
+    }
+}
