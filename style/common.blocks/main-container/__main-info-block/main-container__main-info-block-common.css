@@ -6,3 +6,9 @@
     display: flex;
     margin-top: -10vh;
 }
+@media (max-width: 768px)
+{
+    .main-container__main-info-block-common{
+        margin-top: 0;
+    }  
+}

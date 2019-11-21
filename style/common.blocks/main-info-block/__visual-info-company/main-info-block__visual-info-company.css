@@ -5,3 +5,11 @@
     justify-content: center;
     align-items: center
 }
+
+@media  (max-width: 768px){
+
+    .main-info-block__visual-info-company {
+        display: none;
+    }
+
+}

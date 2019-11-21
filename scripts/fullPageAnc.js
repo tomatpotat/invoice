@@ -4,6 +4,10 @@ var myFullpage = new fullpage('#fullpage', {
     menu: '#menu',
     lazyLoad: true,
     css3: false,
-    scrollOverflow: true
+    scrollOverflow: true,
+    responsiveWidth: 768,
+        afterResponsive: function(isResponsive){
+
+        }
   //  responsiveWidth: 900
     });

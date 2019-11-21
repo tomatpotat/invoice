@@ -9,3 +9,11 @@
     background-color: #f7f7f7;
    
 }
+
+@media (max-width:768px ){
+    .main-info-block__text-info-company{
+        width: 100%;
+   
+    }
+
+}
