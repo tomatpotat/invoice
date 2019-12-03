@@ -1,5 +1,7 @@
 $(document).on('ready', function () {
 
+
+
     $('.slider-for').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -10,8 +12,12 @@ $(document).on('ready', function () {
         adaptiveHeight: true,
         swipe: false,
         touchMove:false,
-        draggable: false
-   
+        draggable: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: 'reinit'
+          }]
+    
     });
     $('.slider-nav').slick({
         slidesToShow: 1,
@@ -26,7 +32,18 @@ $(document).on('ready', function () {
         speed: 500,
         swipe: false,
         touchMove:false,
-        draggable: false
+        draggable: false,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    swipe: true,
+        touchMove:true,
+        draggable: true,
+        arrows:false
+                }
+            }
+        ]
           
     });
     $('.slider-for1').slick({
@@ -39,7 +56,11 @@ $(document).on('ready', function () {
         adaptiveHeight: true,
         swipe: false,
         touchMove:false,
-        draggable: false
+        draggable: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: 'reinit'
+          }]
     });
     $('.slider-nav1').slick({
         slidesToShow: 1,
@@ -54,7 +75,18 @@ $(document).on('ready', function () {
         speed: 500,
         swipe: false,
         touchMove:false,
-        draggable: false
+        draggable: false,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    swipe: true,
+        touchMove:true,
+        draggable: true,
+        arrows:false
+                }
+            }
+        ]
     });
     $('.slider-for2').slick({
         slidesToShow: 1,
@@ -66,7 +98,11 @@ $(document).on('ready', function () {
         adaptiveHeight: true,
         swipe: false,
         touchMove:false,
-        draggable: false
+        draggable: false,
+        responsive: [{
+            breakpoint: 769,
+            settings: 'reinit'
+          }]
     });
     $('.slider-nav2').slick({
         slidesToShow: 1,
@@ -81,7 +117,29 @@ $(document).on('ready', function () {
         speed: 500,
         swipe: false,
         touchMove:false,
-        draggable: false
+        draggable: false,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    swipe: true,
+        touchMove:true,
+        draggable: true,
+        arrows:false
+                }
+            }
+        ]
     });
 
+   
+     
 });
+
+// $(window).resize(function(){
+//     var windowWidth = $('body').innerWidth();
+//     if(windowWidth >= 768){
+//         $('.visual-info-company__presentation-photo-block ').slick('reinit');
+//        }
+// //      else{$(".number-bullets").removeClass('col-xs-4').addClass('col-xs-12');}
+//   });
+

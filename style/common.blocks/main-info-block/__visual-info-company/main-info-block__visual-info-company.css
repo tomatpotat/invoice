@@ -9,7 +9,17 @@
 @media  (max-width: 768px){
 
     .main-info-block__visual-info-company {
-        display: none;
+        display: none;} 
+    
     }
 
-}
+
+/* 
+@media  (min-width: 768px){
+
+    .main-info-block__visual-info-company {
+        display: flex;
+     display: block; 
+    }
+
+} */

@@ -4,3 +4,10 @@
     font-size: 0.75rem;
     font-family: 'Old Standard TT', serif;
 }
+@media (max-width: 768px){
+    .main-info-block__story-arcticle {
+        font-size: 1.1rem;
+        /* padding: 20px; */
+    }
+
+}
