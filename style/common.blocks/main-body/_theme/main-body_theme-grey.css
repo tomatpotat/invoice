@@ -1,3 +1,9 @@
 .main-body_theme-grey{
     background-color:  #eeeeee;
 }
+@media (max-width:768px )
+{
+    .main-body_theme-grey{background-color:   #eaeaea;}
+    
+
+}
