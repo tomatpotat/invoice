@@ -40,7 +40,7 @@ $(document).on('ready', function () {
                     swipe: true,
         touchMove:true,
         draggable: true,
-        arrows:false
+        //arrows:false
                 }
             }
         ]
@@ -78,12 +78,12 @@ $(document).on('ready', function () {
         draggable: false,
         responsive: [
             {
-                breakpoint: 768,
+                breakpoint: 769,
                 settings: {
                     swipe: true,
         touchMove:true,
         draggable: true,
-        arrows:false
+        //arrows:false
                 }
             }
         ]
@@ -100,7 +100,7 @@ $(document).on('ready', function () {
         touchMove:false,
         draggable: false,
         responsive: [{
-            breakpoint: 769,
+            breakpoint: 768,
             settings: 'reinit'
           }]
     });
@@ -125,7 +125,7 @@ $(document).on('ready', function () {
                     swipe: true,
         touchMove:true,
         draggable: true,
-        arrows:false
+       // arrows:false
                 }
             }
         ]
@@ -134,12 +134,3 @@ $(document).on('ready', function () {
    
      
 });
-
-// $(window).resize(function(){
-//     var windowWidth = $('body').innerWidth();
-//     if(windowWidth >= 768){
-//         $('.visual-info-company__presentation-photo-block ').slick('reinit');
-//        }
-// //      else{$(".number-bullets").removeClass('col-xs-4').addClass('col-xs-12');}
-//   });
-

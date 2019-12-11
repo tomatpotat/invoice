@@ -5,7 +5,7 @@ var myFullpage = new fullpage('#fullpage', {
     lazyLoad: true,
     css3: false,
     scrollOverflow: true,
-    responsiveWidth: 768,
+    responsiveWidth: 769,
         afterResponsive: function(isResponsive){
         //  ( '#fullpage',{ lazyLoad: false})
         }

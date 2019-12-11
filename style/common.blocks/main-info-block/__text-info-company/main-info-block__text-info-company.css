@@ -14,7 +14,7 @@
     .main-info-block__text-info-company{
         width: 100%;
         height: 100vh;
-  
+  min-height: 568px;
     }
 .main-info-block__text-info-company_mobile-zebra{
 
