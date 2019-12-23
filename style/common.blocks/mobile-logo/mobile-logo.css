@@ -1,0 +1,43 @@
+
+
+@media  (min-width:320px)  {
+
+    .mobile-logo { 
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 378px) {
+.mobile-logo {
+max-width: 80%;
+
+}
+
+}
+
+@media (min-width: 425px) {
+    .mobile-logo {
+    max-width: 80%;
+    
+    }
+    
+    }
+    
+    
+@media (min-width: 768px){
+    .mobile-logo {
+    max-width: 40%;
+    
+    }
+    
+    }
+    
+@media (orientation:landscape)  
+{
+    .mobile-logo {
+        max-width: 40%;
+        
+        }
+        
+}
+/* , (orientation:landscape) */
